@@ -7,7 +7,7 @@ pipeline {
     }   // this has to be added only if you get an error saying UTF required is 8 but showing in ISO00009
 
     tools {
-        maven 'Gradle 8.0'  // Ensure this matches the name configured in Jenkins
+        maven 'Maven 3.8.5"'  // Ensure this matches the name configured in Jenkins
     }
     stages {
         stage('Checkout') {
